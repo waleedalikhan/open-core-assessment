@@ -25,8 +25,8 @@ const WorkTogetherSection: React.FC = () => {
               </span>
             </div>
             <div className="md:w-auto w-full md:block grid place-content-center">
-              <div className="w-[15.625rem] h-[15.625rem] rounded-full grid place-content-center border-2 border-[#edf2f5]">
-                <span className="text-2xl font-medium leading-9 text-white max-w-32 text-center">
+              <div className="w-[15.625rem] h-[15.625rem] rounded-full grid place-content-center border-2 border-[#edf2f5] relative before:contents-[''] before:bg-white before:w-[15.625rem] before:h-[15.625rem] before:absolute before:-z-10 before:rounded-full before:-left-[80%] before:-top-48 before:transition-all before:ease-in-out before:duration-300 hover:before:left-0 hover:before:top-0 overflow-hidden cursor-pointer group">
+                <span className="text-2xl font-medium leading-9 text-white group-hover:text-black transition-all ease-in-out duration-300 max-w-32 text-center">
                   Let's Work Together!
                 </span>
               </div>

@@ -5,7 +5,7 @@ import { MenuIcon } from "@/components/global/icons";
 const Header: React.FC = () => {
   return (
     <header className="bg-[url(/img/lines-vector.svg)] bg-center bg-cover bg-no-repeat h-40 w-full grid place-content-center lg:mb-[5.68rem] mb-[4.625rem]">
-      <div className="flex border border-border-color rounded-full bg-[#fcfcfd] divide-x divide-border-color]">
+      <div className="flex border border-border-color rounded-full bg-[#fcfcfd] divide-x divide-border-color">
         <Link href="/" passHref>
           <button
             type="button"
